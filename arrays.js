@@ -6,8 +6,7 @@ function addElementToBeginningOfArray(arr, el) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  arr = [element, ...array];
-  return arr;
+  return arr = [element, ...array];
 }
 
 function addElementToEndOfArray(arr, el) {
